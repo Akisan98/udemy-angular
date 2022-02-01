@@ -1,0 +1,1 @@
+<p *ngFor="let item of buttonClicks; index as i" [ngStyle]="{'background-color': i >= 4 ? 'blue' : ''}" [ngClass]="i >= 4 ? 'whiteText' : ''">{{item}}</p>
